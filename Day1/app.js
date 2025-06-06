@@ -1,10 +1,9 @@
-let fullName = "Sandaru Sadishan";
-let age = 20;
-let isGraduate = true;
+let Age = 40;
 
-
-
-console.log("My name is " + fullName + ", I am " + age + " years old. Graduate : " + isGraduate + ".");
-
-
-
+if (Age <=18) {
+  console.log("You are Child!");
+}if (Age > 18 && Age <=25) {
+  console.log("You are Teen !");
+} else {
+  console.log("You are Adult!");
+}
