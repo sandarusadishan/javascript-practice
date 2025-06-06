@@ -1,4 +1,4 @@
-let Age = 40;
+let Age = 20;
 console.log(" Group : ");
 if (Age <= 18) {
   console.log("You are Child!");
@@ -8,8 +8,6 @@ if (Age > 18 && Age <= 25) {
 } else {
   console.log("You are Adult!");
 }
-
-
 
 let Grade = 85;
 
@@ -25,5 +23,13 @@ if (Grade < 65 && Grade >= 55) {
 if (Grade < 55 && Grade >= 45) {
   console.log("S");
 } else {
-  console.log("F");
 }
+
+console.log("Status :");
+
+if (Age >= 22) {
+  console.log("Ready for job!");
+} else {
+  console.log("Not ready for job!");
+}
+
