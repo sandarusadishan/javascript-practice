@@ -5,10 +5,10 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Enter your Age: ", function (ageInput) {
+rl.question("Enter your Age : ", function (ageInput) {
   const Age = parseInt(ageInput); 
 
-  rl.question("Enter your Grade: ", function (gradeInput) {
+  rl.question("Enter your Grade : ", function (gradeInput) {
     const Grade = parseInt(gradeInput); 
 
     if (Age <= 18) {
