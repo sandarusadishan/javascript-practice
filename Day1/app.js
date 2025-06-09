@@ -38,6 +38,13 @@ rl.question("Enter your Age : ", function (ageInput) {
       console.log("Status: Not ready for job!");
     }
 
+    for (let i = 1; i <= 5; i++) {
+  console.log("Hello, I am loop number " + i);
+}
+
     rl.close(); 
   });
 });
+
+
+
