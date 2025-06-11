@@ -19,3 +19,12 @@ console.log("Height  : " + height); // number
 console.log("Hobbies : " + hobbies); // object
 console.log("Grade   : " + grade); // object (special case)
 console.log("City    : " + city); // undefined
+
+
+
+let yourName = "Sandaru Sadishan";
+let yourAge = 24;
+let yourSkills = ["JavaScript", "HTML", "CSS"];
+
+console.log(`${yourName} is ${yourAge} years old.`);
+console.log(`Skills: ${yourSkills.join(", ")}`);
