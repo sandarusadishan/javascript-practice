@@ -10,10 +10,10 @@ console.log("Is Student:", isStudent);
 
 // Data types
 let height = 5.9; // number
-let hobbies = ["reading", "gaming","Dancing","Playing Cricket"]; // array
+let hobbies = ["reading", "gaming", "Dancing", "Playing Cricket"]; // array
 let person = { name: "John", age: 25 }; // object
-let grade = null;
-let city;
+let grade = {" Grade :" : "A" };
+let city = "Kiribathgoda";
 
 console.log("Height  : " + height); // number
 console.log("Hobbies : " + hobbies); // object
