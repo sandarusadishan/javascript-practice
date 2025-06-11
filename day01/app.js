@@ -12,7 +12,7 @@ console.log("Is Student:", isStudent);
 let height = 5.9; // number
 let hobbies = ["reading", "gaming", "Dancing", "Playing Cricket"]; // array
 let person = { name: "John", age: 25 }; // object
-let grade = {" Grade :" : "A" };
+let grade = "A" ;
 let city = "Kiribathgoda";
 
 console.log("Height  : " + height); // number
